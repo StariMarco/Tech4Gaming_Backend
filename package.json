@@ -1,0 +1,44 @@
+{
+  "name": "referral-api",
+  "version": "1.0.0",
+  "description": "This is the Node js Backend of the Tech4Gaming_Deals Xamarin application",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StariMarco/Tech4Gaming_Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StariMarco/Tech4Gaming_Backend/issues"
+  },
+  "homepage": "https://github.com/StariMarco/Tech4Gaming_Backend#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "amazon-product-api": "^0.4.4",
+    "cloudinary": "^1.15.0",
+    "compression": "^1.7.4",
+    "config": "^3.3.6",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-fileupload": "^1.1.6-alpha.5",
+    "fs": "^0.0.1-security",
+    "helmet": "^3.21.0",
+    "joi-objectid": "^2.0.0",
+    "mongoose": "^5.5.14",
+    "multer": "^1.4.2",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
+}
